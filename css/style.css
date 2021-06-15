@@ -14,6 +14,14 @@
     display: table;
     clear: both;
 }
+.overlay{
+    background-color: rgba(0,0,0,0.2);;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
 /* fine common */
 
 /* debug */
@@ -93,14 +101,6 @@ nav li a{
 #banner-title{
     font-size: 28px;
 }
-.overlay{
-    background-color: rgba(0,0,0,0.2);;
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 9px;
-}
 
 /* main-bottom */
 .main-bottom{
@@ -128,12 +128,14 @@ nav li a{
 }
 .container-image{
     width: 100%;
-    height: 25vh;
+    height: 100%;
     object-fit: cover;
 }
-.ol2{
+ .container-top{
     height: 25vh;
-}
+    width: 100%;
+    position: relative;
+ }
 .container-title{
     display: block;
     margin: 20px 0;
