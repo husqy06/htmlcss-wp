@@ -5,51 +5,51 @@
     box-sizing: border-box;
     /* border-radius: 5px; */
 }
-.page{
+#page{
     width: 60%;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  "Montserrat", sans-serif;
 }
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
+.br{
+    border-radius: 9px;
+}
 /* fine common */
 
 
 /* debug */
-.main-top{
-    height: 45vh;
-    margin: 20px 0;
+/* .main-top{
     background-color: #F0E68C;
-    /* position: relative; */
-}
-header{
-    height: 13vh;
+} */
+/* header{
     background-color: #DDA0DD;
-}
-.main-bottom{
+}  */
+/* .main-bottom{
     background-color: #1E90FF;
-}
+} */
 footer{
     height: 8vh;
     background-color: #663399;
 }
-.container{
+/* .container{
     background-color: #87CEFA;
-    height: 50vh;
-}
-.container-title{
+    height: 50vh; 
+} */
+/* .title{
     height: 7vh;
     background-color: #87CEFA;
-}
+} */
 /* fine debug */
 
 /* header */
 header{
     width: 100%;
     position: relative;
+    height: 13vh;
 }
 #logo img{
     display: inline-block;
@@ -66,11 +66,11 @@ nav li{
     display: inline;
     padding-right: 30px;
     text-transform: uppercase;
-    font-weight: 600;
 }
 nav li a{
     text-decoration: none;
     color: gray;
+    font-weight: normal;
 }
 /* fine header */
 
@@ -80,50 +80,70 @@ nav li a{
     margin: 20px 0;
     width: 100%;
     position: relative;
+    height: 45vh;
 }
 .main-top img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 9px;
 }
 .text-banner{
     left: 5%;
     width: 50%;
     position: relative;
     bottom: 40%;
-    font-size: 1.2em;
+    font-size: 19px;
     color: white;
+    font-weight: normal;
 }
-#overlay{
+#banner-title{
+    font-size: 28px;
+}
+.overlay{
     background-color: rgba(0,0,0,0.2);;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
+    border-radius: 9px;
 }
 
 /* main-bottom */
 .main-bottom{
     width: 100%;
 }
-
 .container{
+    position: relative;
     margin: 15px 0 15px 0;
     float: left;
     width: 25%;
 }
-.container-title{
+.title{
     width: 100%;
+    font-size: 23px;
+    color: grey;
+}
+.title h1{
+    font-weight: bolder;
+    color: black;
 }
 #center{
     width: calc((100% / 4) * 2 - 30px);
     margin: 15px;
 }
- 
+.container-image{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+.ol2{
+    height: 25vh;
+}
+.container-title{
+    display: block;
+    margin: 20px 0;
+    font-weight: 600;
+}
 /* fine main */
 
 /* inizio footer */

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">
+    
     <title>Css Layout</title>
 </head>
 <body>
-    <div class="page">
+    <div id="page">
         <!-- inizio header -->
         <header>
             <div id="logo">
@@ -33,30 +34,40 @@
         <main>
 
             <section class="main-top">
-                <div id="overlay"></div>
+                <div class="overlay"></div>
                 <img src="img/banner.jpg" alt="Image banner">
                 <div class="text-banner">
-                    <h2>Pretium ac placerat dui interdum nunc in eros urna morbi</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis maxime ullam dolores modi...
+                    <span id="banner-title">Pretium ac placerat dui interdum nunc in eros urna morbi</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis maxime ullam dolores modi...</p>
                 </div>
             </section>
 
             <section class="main-bottom clearfix">
 
-                <div class="container-title">
-
+                <div class="title">
+                    <h1><strong>Leadership</strong></h1>
+                    <p>Fertenum urna a libero tempus</p>
                 </div>
 
                 <div class="container">
-
+                    <div class="overlay ol2"></div>
+                    <img class="container-image" src="img/img-1.jpg" alt="">
+                    <span class="container-title">Lorem</span>
+                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla incidunt recusandae delectus quod quasi exercitationem temporibus nesciunt commodi labore illo velit eius ratione porro, eveniet ipsam sint, necessitatibus veniam ullam.</span>
                 </div>
 
                 <div class="container"  id="center">
-
+                    <div class="overlay ol2"></div>
+                    <img class="container-image" src="img/banner-2.jpg" alt="">
+                    <span class="container-title">Lorem</span>
+                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla incidunt recusandae delectus quod quasi exercitationem temporibus nesciunt commodi labore illo velit eius ratione porro, eveniet ipsam sint, necessitatibus veniam ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, perferendis consequatur accusamus repellendus nobis necessitatibus et voluptatem, voluptas nostrum fuga fugit doloribus numquam amet deserunt minima ipsam pariatur? Ratione, consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et suscipit fuga itaque rem voluptates, tenetur dolores ut dolore nam accusantium asperiores perferendis. Quos at, et asperiores deserunt nesciunt ut. Lorem ipsum dolor sit amet consectetur adipisicing </span>
                 </div>
 
                 <div class="container">
-
+                    <div class="overlay ol2" ></div>
+                    <img class="container-image" src="img/img-3.jpg" alt="">
+                    <span class="container-title">Lorem</span>
+                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla incidunt recusandae delectus quod quasi exercitationem temporibus nesciunt commodi labore illo velit eius ratione porro, eveniet ipsam sint, necessitatibus veniam ullam.</span>
                 </div>
 
             </section>
